@@ -4,17 +4,15 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: http://bestwing.me
+  博客首页: /
   文章归档: /archives
-  学习导航: /CTFStudy
-  PWNABLE: /PWNABLE
-  个人简历: /resume
+  关于我: /about
 
 # Link to your avatar | 填写头像地址
 avatar: img/head.jpg
 
 # Small icon of Your site | 站点小图标地址
-favicon: "http://oayoilchh.bkt.clouddn.com/2016/07/27/18:05:26%20"
+favicon: img/head.jpg
 
 
 # Social info. Bar | 社交信息展示
@@ -23,10 +21,10 @@ favicon: "http://oayoilchh.bkt.clouddn.com/2016/07/27/18:05:26%20"
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kvH99PT39-Dn_efS5PvivOPjvPH9-w"
-  github: "https://github.com/WinMin"
-  zhihu: "https://www.zhihu.com/people/Swings"
-  weibo: "http://weibo.com/2672317963/profile?topnav=1&wvr=6&is_all=1"
+  mail: "http://mail.qq.com/"
+  github: "https://github.com/"
+  # zhihu: "#"
+  weibo: "#"
   rss: /atom.xml
   # facebook: "#"
   # rss: /atom.xml
@@ -45,27 +43,27 @@ subnav:
 
 disqus: 
   on: true
-  shortname: swing
+  shortname: TEST
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  # on: true
+  on: false
   domain: luuman
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
-  #on: true
-  owner: luuman
-  repo: luuman.github.io
+  on: false
+  owner: 
+  repo:
   client_id: 
   client_secret: 
 
 youyan:
-  #on: true
+  on: false
   id: 
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
@@ -80,7 +78,6 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  #on: false
   background_sum: 24
   background_image: 109
 
@@ -129,41 +126,13 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  Yllen: http://ring3.xyz/
-  麦香浓郁: http://mxny.org/
-  K0sh1: http://whereisk0shl.top/
-  信鑫: http://www.ycjcl.cc/
-  ByStundet表哥: http://bystudent.com/
-  汪神_Jarvis: https://www.jarviswang.me/
-  Chu: http://sh3ll.me/
-  4ido10n: https://www.hackfun.org/
-  L3m0n: http://www.cnblogs.com/iamstudy
-  muhe: http://o0xmuhe.me/
-  _画船听雨: http://blog.nuptzj.cn/
-  Virink: http://www.virzz.com/index.html
-  国光: http://www.sqlsec.com/
-  老锥: http://www.bodkin.ren/
-  C1zel: http://www.cizel.cn/
-  1phan: http://1phan.cc
-  liuil: https://www.liuil.top/
-  Ox9A82: http://www.cnblogs.com/Ox9A82/
-  burnegg: http://burnegg.com/
-  jwr-sec: https://jwrsec.cn/
-  苏打: http://sudalover.cn/
-  VeroFess: http://blog.binklac.com
-  bendawang: http://www.bendawang.site/
-  hook: http://weeklyalgo.codes/
-  Flier'blog: http://www.flier.net.cn/
-  mutepig: http://www.mutepig.club
-  Silver: https://blog.iret.xyz/list.aspx
-  Simple: http://simp1e.leanote.com/
-  Processor: http://processor.pub/
+  Heng'blog: "https://www.heng.ga"
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording1: '纯属好玩'
 reward_wording2: '扫码打赏，你说多少就多少'
@@ -173,7 +142,7 @@ alipay: /img/alipay.png
 weixin: /img/weixin.png
 
 #是否开启“关于我”。
-aboutme: 一只淹死在二进制海洋里的二进制狗
+aboutme: ..
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -201,8 +170,8 @@ baidushare: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
-baidu_site: #c167b9feb4f0b208b712c79629c188e4
+google_site: 
+baidu_site: 
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
 google_analytics:
