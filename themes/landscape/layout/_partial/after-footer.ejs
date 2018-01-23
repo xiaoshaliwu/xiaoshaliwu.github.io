@@ -16,11 +16,11 @@
 <% if (theme.search_box){ %>
     <script type="text/javascript">
       window.onload = function(){
-        document.getElementById("search").onclick = function(){
-            console.log("search")
+        document.getElementById("local-search-input").onclick = function(){
+            console.log("search");
             search();
-        }
-      }
+		}
+	}
       function search(){
         (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
         (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
