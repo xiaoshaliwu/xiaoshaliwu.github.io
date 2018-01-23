@@ -80,6 +80,7 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
+  background_url: /background/
   background_sum: 24
   background_image: 109
 
