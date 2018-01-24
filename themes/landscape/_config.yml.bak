@@ -71,8 +71,8 @@ youyan:
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
 #Valine https://valine.js.org
 valine: 
- appid: hJfopG1FNJQVuYJmz0iC3TpL-gzGzoHsz
- appkey: rzmC7NJd7VIB5yKxESWw5BvN
+ appid:  #Leancloud应用的appId
+ appkey:  #Leancloud应用的appKey
  verify: false #验证码
  notify: false #评论回复提醒
  avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide

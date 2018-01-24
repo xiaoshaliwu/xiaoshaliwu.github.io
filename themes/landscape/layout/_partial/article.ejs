@@ -141,7 +141,15 @@
         <%- partial('comments/disqus', {
             shortname: config.disqus_shortname
           }) %>
-    <% } %>
+    <% } else if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
+    <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+      <%- partial('post/valine', {
+        key: post.slug,
+        title: post.title,
+        url: config.url+url_for(post.path)
+        }) %>
+    </section>
+  <% } %>
 <% } %>
 
 <%- partial('_partial/post-nav-button') %>
