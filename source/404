@@ -4,7 +4,10 @@ permalink: /404.html
 
 ---
 
-<html>
-  <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="https://blog.xiashaliwu.tk" homePageName="回到我的主页">
-  </script>
+<html> 
+<body>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="https://xiaoshaliwu.tk" homePageName="回到我的主页">
+
+</script>
+</body>
 </html>
