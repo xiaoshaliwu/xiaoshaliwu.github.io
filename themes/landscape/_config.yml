@@ -9,7 +9,7 @@ menu:
   关于我: /about
 
 # Link to your avatar | 填写头像地址
-avatar: https://www.xiaoshaliwu.tk/img/head.jpg
+avatar: https://xiaoshaliwu.coding.me/img/head.jpg
 
 # Small icon of Your site | 站点小图标地址
 favicon: img/head.jpg
@@ -79,7 +79,7 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  background_url: https://www.xiaoshaliwu.tk/img/
+  background_url: https://xiaoshaliwu.coding.me/background/
   background_sum: 24
   background_image: 109
 
