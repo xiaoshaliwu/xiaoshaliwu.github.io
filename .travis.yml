@@ -20,6 +20,7 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${gh_token}@${GH_REF}" master:master
+  - git push --force --quiet "https://${code_t}@${GH_REE}" master:master
 # E: Build LifeCycle
 
 branches:
@@ -28,3 +29,4 @@ branches:
 env:
   global:
    - GH_REF: github.com/xiaoshaliwu/xiaoshaliwu.github.io.git
+   - GH_REE: git.coding.net/xiaoshaliwu/xiaoshaliwu.coding.me.git
