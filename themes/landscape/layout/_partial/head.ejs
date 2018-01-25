@@ -65,4 +65,14 @@
   </script>
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="/js/Valine.js"></script>
+<% if (theme.bodybg){ %>
+<style>
+body {
+        background: url(<%- theme.bodybg %>);
+     }
+</style>
+ <% } %>
+
+<script src="//7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<%- js('js/main') %>
 </head>
