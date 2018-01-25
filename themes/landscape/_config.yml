@@ -7,7 +7,8 @@ menu:
   博客首页: /
   文章归档: /archives
   关于我: /about
-
+# write subtitle | 副标题 
+subtitle: 
 # Link to your avatar | 填写头像地址
 avatar: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1790530814,1414590514&fm=27&gp=0.jpg
 
@@ -79,16 +80,15 @@ valine:
  placeholder: Just go go #评论框占位符
 
 # >>> Style Customisation 样式自定义 <<<
-
 # Background | 背景
 ## "background_sum": show images form /source/background/的图片数目
 ## "on: true": 自动随机显示这5张图片
-## "on: false": 自定义显示图片设置background_image: 5
+## "on: false": 自定义显示图片设置
 background:
-  on: true
+  on: ture
   background_url: https://xiaoshaliwu.coding.me/background/
   background_sum: 24
-  background_image: 109
+  background_image: 2
 
 highlight_style:
   on: true
